@@ -1,0 +1,270 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+body {
+    background:url(img/tokped2.svg) fixed no-repeat center;
+    font-family: tahoma,sans-serif;
+}
+
+/* logo */
+.logo {
+    background:no-repeat;
+    display: inline-block;
+    width: 180px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+
+
+/* container */
+.container{
+    
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px 32px 12px;
+}
+
+.container-border {
+    border-radius: 9px!important;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,.12)!important;
+    margin-top: 10%;
+    background: #fff;
+    position: relative;
+    display: block;
+    width: 368px;
+    margin: 0 auto;
+    padding: 40px 32px 12px;
+    background-color: #fff;
+}
+
+/* header */
+.header {
+    display: inline;
+    background-color: lightblue;
+    
+}
+
+.header .header-masuk {
+    float: left;
+    font-weight: 600; 
+    font-size: 18px;
+    color: rgba(0,0,0,.7);
+    line-height: 1.5;
+}
+
+.header .header-daftar {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.header a{
+    display: inline;
+    text-decoration: none;
+    color: #42b549;
+    
+    
+    
+}
+
+/* login form */
+.login-form .username-login{
+    width: 100%;
+    max-height: 40px;
+    margin-bottom: 4px;
+    padding: 10px 14px;
+    font-size: 14px;
+    font-family: open sans,tahoma,sans-serif;
+    color: rgba(0,0,0,.7);
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+    box-shadow: none;
+    line-height: normal;
+    transition: border .2s linear;
+    
+}
+
+.username .username-text {
+    margin-top: 30px;
+    display: block;
+    margin-bottom: 7px;
+    font-size: 12px;
+    color: rgba(0,0,0,.54);
+    float: left;
+}
+
+.username .username-text2 {
+    display: block;
+    margin-bottom: 7px;
+    font-size: 12px;
+    color: rgba(0,0,0,.54);
+    float: left;
+}
+
+.login-form .button-submit{
+    
+    display: inline-block;
+    position: relative;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    height: 50px;
+    text-align: center;
+    padding: 8px 16px;
+    cursor: pointer;
+    
+}
+
+.login-form .button-next {
+    border: 0;
+    background: #03ac0e;
+    color: #fff;
+    margin-top: 20px;
+    
+}
+
+.login-form .button-next:hover {
+    background-color: #12883d;
+    border-color: #12883d;
+    color: #fff;
+}
+/* garis */
+
+.line {
+    margin-top: 20px;
+}
+
+.line .line-1{
+    display: inline-block;
+    border: .5px solid rgba(0,0,0,.12);
+    width: 20%;
+    white-space: nowrap;
+}
+
+.line .line-text {
+    color: rgba(0,0,0,.38);
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+/* social media login */
+.social-media-login {
+    margin-top: 20px;
+}
+
+.social-media-login ul li {
+    margin-top: 20px;
+}
+
+.social-media-login .daftar-a {
+    display: inline;
+    text-decoration: none;
+    color: #42b549;
+}
+.social-media-login .link-media {
+    display: inline;
+    text-decoration: none;
+    color: #4b4b4b;
+}
+.social-media-login .Google {
+    border: 1px solid #e5e5e5;
+    color:#4b4b4b;
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+    cursor: pointer;
+    
+}
+.social-media-login li:hover {
+    background-color: #f5f5f5;
+    border-color: #f2f2f2;
+    cursor: pointer;
+}
+.social-media-login .Fb {
+    border: 1px solid #e5e5e5;
+    color:#4b4b4b;
+    text-align: center;
+    width: 100%;  
+    padding: 5px;
+    cursor: pointer;
+}
+
+.social-media-login .gugel {
+    background: #fff  center;
+    display: inline-block;
+    position: relative;
+    border-radius: 8px;
+    font-weight: 600;
+    outline: 0;
+}
+
+
+.social-media-login .fb {
+    display: inline-block;
+    position: relative;
+    border-radius: 8px;
+    font-weight: 600;
+    outline: 0;
+    background: #fff  center;  
+}
+
+
+.daftar-link {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    font-size: 13px;
+    text-align: center;
+    color: rgba(0,0,0,.54);
+}
+
+.social-media-login .google-icon {
+    background: url(img/google-img.svg) no-repeat ;
+    float: left;
+    width: 20px;
+    height: 20px;
+}
+
+.social-media-login .fb-icon {
+    background: url(img/facebook-img.svg) no-repeat ;
+    float: left;
+    width: 20px;
+    height: 20px;
+    
+}
+
+
+/* Footer */
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 16px 0;
+    color: rgba(0,0,0,.54);
+    text-align: center;
+    font-size: 14px;
+    align-items: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color:  #42b549;;
+    text-align: center;
+    
+}
