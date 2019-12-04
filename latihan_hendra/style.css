@@ -25,10 +25,9 @@ body {
 
 /* container */
 .container{
-    
     width: 500px;
     text-align: center;
-    margin: 0 auto;
+    margin: auto;
     padding: 40px 32px 12px;
 }
 
@@ -120,7 +119,7 @@ body {
     font-size: 15px;
     height: 50px;
     text-align: center;
-    padding: 8px 16px;
+    padding: 5px 16px;
     cursor: pointer;
     
 }
@@ -169,6 +168,7 @@ body {
 
 .social-media-login ul li {
     margin-top: 20px;
+    height: 38px;
 }
 
 .social-media-login .daftar-a {
@@ -186,7 +186,7 @@ body {
     color:#4b4b4b;
     text-align: center;
     width: 100%;
-    padding: 5px;
+    padding: 8px;
     cursor: pointer;
     
 }
@@ -200,7 +200,7 @@ body {
     color:#4b4b4b;
     text-align: center;
     width: 100%;  
-    padding: 5px;
+    padding: 8px;
     cursor: pointer;
 }
 
